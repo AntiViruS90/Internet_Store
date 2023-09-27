@@ -156,7 +156,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 5% 0 5%;
     font-size: calc(1.525rem + 3.3vw);
 }
 @media (min-width: 400px) {
@@ -491,8 +490,7 @@
     font-weight: 100;
     font-family: Emilia;
     margin-bottom: 10px;
-    padding-left: 15%;
-    padding-top: 25px;
+    padding: 25px 15% 0 15%;
 }
 .foot_div1 p {
     background: fixed;
@@ -510,7 +508,6 @@
     padding-left: 15%;
 }
 input {
-    width: 35%;
     margin-top: 30px;
     margin-right: 10px;
     border: 2px solid white;
@@ -527,7 +524,6 @@ input {
     color: lightgrey;
 }
 .btn_foot_div1 {
-    width: 20%;
     height: 56px;
     color: #37507a;
     font-size: 20px;
